@@ -35,6 +35,16 @@ A hard-constrained balanced clustering algorithm based on Blossom matching that:
 - Operates purely on pairwise distance matrices and does not require a vector-space representation
 - Improves robustness under noisy distance matrices
 
+## Pretrained Models
+
+Pretrained models used in our experiments are available on Hugging Face:
+
+👉 https://huggingface.co/hehteram/Breaking-DataMix
+
+These models are based on a ResNet-18 architecture and are trained on a mixed version of the CelebA dataset as described in the paper.
+
+They are provided for reproducibility and evaluation of the proposed inversion attacks.
+
 ## Notebook Structure
 
 All implementations are provided in a single Jupyter notebook:
